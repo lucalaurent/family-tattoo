@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'ChomskyRegular';
+        src: url('/assets/fonts/chomsky/e1c2f677c3ac28093f04c77fceafa88d/b5fc230a2b74c4eda45e4b6c8c67c652/ChomskyRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+h1, h2, h3, h4, h5 {
+    font-family: Playfair Display;
+}
+body{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+button{
+    background-color: #D4AF37;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    padding:5px;
+}
+li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+.logo{
+    font-family:'ChomskyRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+.menu-header{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Playfair Display';
+}
+.bienvenue{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: lightgray;
+}
+.bienvenue h1,.bienvenue p{
+    color:white;
+}
+/* .bienvenue p{
+
+} */
+
+
+
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: black;
+    border-top:white solid 40px;
+    border-left:white solid 30px;
+    border-right:white solid 30px;
+    color:white;
+}
+.logo-footer{
+    height:4em;
+}
+
+.info-contact{
+    display:flex;
+    flex-direction:column;
+    width:30%;
+}
+
