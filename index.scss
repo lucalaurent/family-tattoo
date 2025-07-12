@@ -1,0 +1,116 @@
+/* Initialisation */
+h1, h2, h3, h4, h5 {
+    font-family: Playfair Display;
+}
+body{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+button{
+    background-color: #D4AF37;
+    color: white;
+    border-radius: 10px;
+    border:none;
+    padding:5px;
+}
+li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+header{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+/* Header */
+.logo{
+    font-family:'ChomskyRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+.menu-header{
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Playfair Display';
+}
+.bienvenue{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color: lightgray;
+}
+.bienvenue h1,.bienvenue p{
+    color:white;
+}
+
+/* Section Bienvenue */
+.bienvenue{
+    height:100vh;
+    width:100vw;
+    background-image: url("Images/Image accueil - bloc Hero.jpg");
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    .bienvenue-bouton{
+        color:#262626;
+    }
+}
+
+
+.bvn-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:rgba(0,0,0,0.2);
+    padding:10px;
+    width:30%;
+    letter-spacing: 0.2em ;
+
+    h2{
+        color:white;
+        font-size:xx-large;
+        margin:0;
+        padding:0;
+    }
+    p{
+        font-size:x-large;
+        margin:0;
+        padding:0;
+    }
+}
+
+footer{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #262626;
+    border-top:white solid 40px;
+    border-left:white solid 30px;
+    border-right:white solid 30px;
+    color:white;
+}
+.logo-footer{
+    height:4em;
+}
+.menu-footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    list-style:none;
+}
+.info-contact{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    list-style: none;
+}
+
+
