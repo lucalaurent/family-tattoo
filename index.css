@@ -128,9 +128,11 @@ header {
 }
 
 .about-us-cover {
+  border-radius: 15px;
   max-width: 50vw;
-  max-height: 50vh;
+  max-height: 60vh;
   width: 50%;
+  margin-right: 2vw;
 }
 
 .about-us-text {
@@ -138,12 +140,73 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-width: 50vw;
+  width: 50%;
+}
+
+.about-us-p {
+  max-width: 40vw;
+}
+.about-us-p span {
+  font-weight: bold;
 }
 
 .about-us-list {
   display: flex;
   flex-direction: column;
   list-style: none;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-tattoo-piercing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 50vw;
+  max-height: 60vh;
+  width: 50%;
+  height: 50%;
+}
+.services-tattoo-piercing img {
+  height: 50%;
+  width: 40%;
+  margin-bottom: 10px;
+}
+.services-tattoo-piercing p {
+  margin: 0;
+}
+
+.gallerie {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.gallerie img {
+  max-height: 100%;
+  max-width: 30%;
+  height: 20%;
+  width: 15%;
+  border-radius: 15px;
+  border: solid darkgray 1px;
+  box-shadow: 10px 5px 5px darkgray;
+}
+.gallerie h3 {
+  font-size: 2em;
+}
+
+.gallery-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 footer {
