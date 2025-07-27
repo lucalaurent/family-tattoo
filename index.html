@@ -80,19 +80,38 @@
         <section class="gallerie">
             <h3>Nos réalisations</h3>
             <div class="gallery-content">
-             <img src="./Images/Logo Family Tattoo.jpg" alt="realisation tattoo">
-             <img src="./Images/Logo Family Tattoo.jpg" alt="realisation tattoo">
-             <img src="./Images/Logo Family Tattoo.jpg" alt="realisation tattoo">
+             <img src="./Images/apercu-familly-tattoo-neo-tribal.png" alt="realisation tattoo">
+             <img src="./Images/apercu-family-tattoo-cute-tattoo.png" alt="realisation tattoo">
+             <img src="./Images/apercu-family-tattoo-old-school.png" alt="realisation tattoo">
             </div>
             </section>
         <section class="avis">
             <h3> Ils nous font confiance</h3>
-            <!-- insert review carousel here -->
+            <ul>
+                <li class="card"><h6>Genial</h6><p>Je me suis fait tatoué le bras droit par Laura, je suis ultra fan du résultat</p></li>
+                <li class="card"><h6>Titre</h6><p>Avis</p></li>
+                <li class="card"><h6>Titre</h6><p>Avis</p></li>
+                <li class="card"><h6>Titre</h6><p>Avis</p></li>
+            </ul>
        </section>
         <section class="contact">
             <h3 id="contact">Prêt(e) à nous confier votre porjet?</h3>
+            <div class="contact-content">
             <p>Remplissez notre formulaire et on vous recontacte rapidement</p>
-            <button class="formulaire-contact-btn">Nous contacter</button>
+            <form>
+                <label for="name">Prénom</label>
+                <input type="text" id="name" name="name" required></input>
+                <label for="lname">Nom</label>
+                <input type="text" id="lname" name="lname" required></imput>
+                <label for="email">Adresse Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="project">Votre Projet</label>
+                <input type="text" id="project" name="project" required>
+                <input type="submit" id="submit" name="submit" value="Envoyer">
+            </form>
+            
+        </div>
+            <!-- <button class="formulaire-contact-btn">Nous contacter</button> -->
         </section>
     </main>
     <footer>
