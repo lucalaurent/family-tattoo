@@ -181,6 +181,7 @@ header {
 }
 .services-tattoo-piercing p {
   margin: 0;
+  margin-bottom: 10px;
 }
 
 .gallerie {
@@ -240,10 +241,40 @@ header {
   margin-bottom: 5px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.form-and-map {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form-and-map iframe {
+  width: 50%;
+}
+
+.contact-us-form {
+  width: 50%;
+}
+
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   background-color: #262626;
   border-top: white solid 40px;
   border-left: white solid 30px;
@@ -265,6 +296,16 @@ footer {
 .info-contact {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: first baseline;
+  list-style: none;
+}
+
+.reseaux-signature {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.reseaux-signature ul {
   list-style: none;
 }/*# sourceMappingURL=index.css.map */

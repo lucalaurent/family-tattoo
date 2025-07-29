@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="index.css">
   
   <!-- Polices Google (exemple) -->
+  <script src="https://kit.fontawesome.com/50eec1375a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/en/face/chomsky" type="text/css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,15 +26,6 @@
 <body>
 <header>
     <h1 class="logo">Family Tattoo</h1>
-    <nav>
-        <ul class="menu-header">
-            <li>Accueil</li>
-            <li>Nos Prestations</li>
-            <li>Gallerie</li>
-            <li>Le Salon</li>
-            <li>Contact</li>
-        </ul>
-    </nav>
 </header>
 
      <main>
@@ -42,8 +34,6 @@
             <h2>Tatouage & Piercing</h2>
                <p class="bienvenu-h"> Entre mère et fille, on ancre vos envies.</p>
             </div>
-            <button class="bienvenue-bouton">Découvrir nos prestations</button> 
-             <!-- Ajouter flêche vers le bas -->
         </section>
          <section class="about-us">
             <img class="about-us-cover" src="./Images/Familly-tattoo-propriétaires.jpg" alt="Family Tattoo creatrices et proprietaires">
@@ -55,9 +45,9 @@
                 un piercing discret ou un projet plus personnel, on vous guide avec douceur… et 
                 toujours avec le sourire.</p>
                 <ul class="about-us-list">
-                    <li>Tatouage sur mesure</li>
-                    <li>Piercing en douceur</li>
-                    <li>Conseils Bienveillants</li>
+                    <li><i class="fa-light fa-pen-nib"></i> Tatouage sur mesure</li>
+                    <li><i class="fa-light fa-gem"></i> Piercing en douceur</li>
+                    <li><i class="fa-light fa-comments"></i> Conseils Bienveillants</li>
                 </ul>
             
         </div>
@@ -68,13 +58,11 @@
                 <p>Un premier Tattoo ou un projet personnel?</p>
                 <p>On crée avec vous</p>
                 <img src="./Images/Tatouage en cours - bloc prestation - page accueil.jpg" alt="Tattoo artist entrain de tatouer un projet tatouage"> 
-                <button class="tattoo-sur-mesure-cta">Voir nos Tattoos</button>
             </div>
             <div class="services-tattoo-piercing">
                 <h3>Piercing en Douceur</h3>
                 <p>Discret ou simbolique, nous vous accompagnons en douceur et bienveillance</p>
-                <img src="" alt="Piercing lobes en douceur">
-                <button class="piercing-en-douceur-cta">Voir les Piercings</button>
+                <img src="./Images/Piercing-en-douceur.png" alt="Piercing lobes en douceur">
             </div>
         </section>
         <section class="gallerie">
@@ -89,34 +77,27 @@
             <h3> Ils nous font confiance</h3>
             <ul>
                 <li class="card"><h6>Genial</h6><p>Je me suis fait tatoué le bras droit par Laura, je suis ultra fan du résultat</p></li>
-                <li class="card"><h6>Titre</h6><p>Avis</p></li>
-                <li class="card"><h6>Titre</h6><p>Avis</p></li>
-                <li class="card"><h6>Titre</h6><p>Avis</p></li>
+                <li class="card"><h6>Piercing au Top</h6><p>Je me suis fait piercer les lobes d'orreilles, l'accueil était super bienveillant j'ai tout de suite été mis en confiance. Je recommande vivement!</p></li>
+                <li class="card"><h6>Très à l'écoute</h6><p>J'avais pris rendez-vous pour un projet tatouage avec Eliane, elle à été très attentive à mes besoins et à mes demande, et à été très patiente avec moi pendant toute la création et le positionement de ce tatouage. Merci</p></li>
+                <li class="card"><h6>Merveilleux</h6><p>En vacances dans la région un de mes piercing s'est accroché dans mon maillot, je suis donc allé chez Familly Tattoo, où j'ai été tellement bien conseillée que j'ai fait un nouveau piercing à l'hélix</p></li>
             </ul>
        </section>
         <section class="contact">
             <h3 id="contact">Prêt(e) à nous confier votre porjet?</h3>
             <div class="contact-content">
             <p>Remplissez notre formulaire et on vous recontacte rapidement</p>
-            <form>
-                <label for="name">Prénom</label>
-                <input type="text" id="name" name="name" required></input>
-                <label for="lname">Nom</label>
-                <input type="text" id="lname" name="lname" required></imput>
-                <label for="email">Adresse Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="project">Votre Projet</label>
-                <input type="text" id="project" name="project" required>
-                <input type="submit" id="submit" name="submit" value="Envoyer">
-            </form>
-            
+            <div class="form-and-map">
+                <div class="contact-us-form" data-tf-live="01K18WRMG4MXT4DA1X9TPV9SXP"></div><script src="//embed.typeform.com/next/embed.js"></script>            
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.025501491751!2d4.251905776319167!3d45.52969237107514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f44d75346224e9%3A0xbef446f76dd3fd62!2sJC%20Family%20Tatoo%20-%20Tatouage%2C%20tatouage%20th%C3%A9rapeutique%2C%20piercing!5e0!3m2!1sen!2sfr!4v1753714341016!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
         </div>
             <!-- <button class="formulaire-contact-btn">Nous contacter</button> -->
         </section>
     </main>
     <footer>
         <img src="./Images/Logo Family Tattoo.jpg" alt="Logo Familly tattoo" class="logo-footer">
-        <div class="menu">
+        <!-- <div class="menu">
             <ul class="menu-footer">
                 <li>Accueil</li>
                 <li>Nos Prestations</li>
@@ -124,7 +105,7 @@
                 <li>Le Salon</li>
                 <li>Contact</li>
             </ul>
-        </div>
+        </div> -->
         <div class="info-contact">
             <ul class="info-contact">
                 <li>📍61 Avenue Frédéric Mistral | 13460 Les Saintes Maries de la mer </li>
