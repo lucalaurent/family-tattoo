@@ -166,6 +166,8 @@ height:50%;
 height:50%;
 width:40%;
 margin-bottom:10px;
+filter: drop-shadow(3px 1px 4px #000000);
+border-radius:15px;
 }
 p{
     margin:0;
@@ -174,11 +176,12 @@ p{
 }
 
 .gallerie{
+    background-color:#F7F4F2;
     display:flex;
     flex-direction: column;
     justify-content:space-around;
     align-items:center;
-    border-bottom:15px;
+    padding-bottom:15px;
     
     h3{
         font-size: 2em;
@@ -201,7 +204,6 @@ p{
 }
 
 .avis{
-    background-color:#F7F4F2;
     display:flex;
     flex-direction:column;
     justify-content:space-around;
@@ -232,6 +234,7 @@ p{
     }
 }
 .contact{
+    background-color:#F7F4F2;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -257,6 +260,7 @@ p{
     }
 }
 .contact-us-form{
+    max-height:100%;
     width:50%;
 }
 
@@ -296,4 +300,43 @@ footer{
     }
 }
 
+@media only screen and (max-width: 600px) {
+    body{
+        max-width:100vw;
+    }
+.bienvenue{
+    background-image: url("./Images/cover-mobile.png");
+    max-width: 100vw;
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-origin: border-box;
+    background-clip: border-box;
+    .bvn-content{
+        width:100%;
+        flex-wrap: wrap;
+        h2{
+            color:white;
+            font-size:2em;
+            line-height:2;
+            margin:0;
+            padding:0;
+        }
+        p{
+            font-size:x-large;
+            margin:0;
+            padding:0;
+            white-space: nowrap;
+        }
+    }
+}
+.avis{
+    ul{
+        flex-direction:column;
+    }
+}
+.gallery-content{
+    flex-direction:column;
+}
+}
 

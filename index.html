@@ -10,6 +10,57 @@
   <meta name="description" content="Une brève description de la page en français.">
   <meta name="author" content="Nom de l’auteur">
   
+  <!-- Structured data -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TattooParlor",
+      "name": "Family Tattoo",
+      "image": "",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "61 Avenue Frédéric Mistral",
+        "addressLocality": "Les Saintes Maries de la mer",
+        "postalCode": "13460",
+        "addressCountry": "FR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "",
+        "longitude": ""
+      },
+      "url": "https://family-tattoo.com",
+      "telephone": "+33 6 22 90 60 90",
+      "email": "eclipse.shoptattoo@gmail.com",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "10:00",
+          "closes": "22:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Monday",
+          "opens": "10:00",
+          "closes": "13:00"
+        }
+      ],
+      "openingHours": [
+        "Mo 10:00-13:00",
+        "Tu-Su 10:00-22:00"
+      ],
+      "priceRange": "$$"
+    }
+    </script>
+    
   <!-- Favicon -->
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   
@@ -17,7 +68,6 @@
   <link rel="stylesheet" href="index.css">
   
   <!-- Polices Google (exemple) -->
-  <script src="https://kit.fontawesome.com/50eec1375a.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/en/face/chomsky" type="text/css"/>
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +95,7 @@
                 un piercing discret ou un projet plus personnel, on vous guide avec douceur… et 
                 toujours avec le sourire.</p>
                 <ul class="about-us-list">
-                    <li><i class="fa-light fa-pen-nib"></i> Tatouage sur mesure</li>
+                    <li>  Tatouage sur mesure</li>
                     <li><i class="fa-light fa-gem"></i> Piercing en douceur</li>
                     <li><i class="fa-light fa-comments"></i> Conseils Bienveillants</li>
                 </ul>
@@ -57,20 +107,20 @@
                 <h3> Tatouages sur mesure</h3>
                 <p>Un premier Tattoo ou un projet personnel?</p>
                 <p>On crée avec vous</p>
-                <img src="./Images/Tatouage en cours - bloc prestation - page accueil.jpg" alt="Tattoo artist entrain de tatouer un projet tatouage"> 
+                <img src="./Images/tatouage-en-cours.jpg" alt="Tattoo artist entrain de tatouer un projet tatouage"> 
             </div>
             <div class="services-tattoo-piercing">
                 <h3>Piercing en Douceur</h3>
                 <p>Discret ou simbolique, nous vous accompagnons en douceur et bienveillance</p>
-                <img src="./Images/Piercing-en-douceur.png" alt="Piercing lobes en douceur">
+                <img src="./Images/piercing-en-douceur.png" alt="Piercing lobes en douceur">
             </div>
         </section>
         <section class="gallerie">
             <h3>Nos réalisations</h3>
             <div class="gallery-content">
-             <img src="./Images/apercu-familly-tattoo-neo-tribal.png" alt="realisation tattoo">
-             <img src="./Images/apercu-family-tattoo-cute-tattoo.png" alt="realisation tattoo">
-             <img src="./Images/apercu-family-tattoo-old-school.png" alt="realisation tattoo">
+             <img src="./Images/Nos-realisations-neotribal.png" alt="realisation tattoo">
+             <img src="./Images/Nos-realisations-oldschool.png" alt="realisation tattoo">
+             <img src="./Images/nos-reasisations-mignon.png" alt="realisation tattoo">
             </div>
             </section>
         <section class="avis">
@@ -87,16 +137,14 @@
             <div class="contact-content">
             <p>Remplissez notre formulaire et on vous recontacte rapidement</p>
             <div class="form-and-map">
-                <div class="contact-us-form" data-tf-live="01K18WRMG4MXT4DA1X9TPV9SXP"></div><script src="//embed.typeform.com/next/embed.js"></script>            
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2795.025501491751!2d4.251905776319167!3d45.52969237107514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f44d75346224e9%3A0xbef446f76dd3fd62!2sJC%20Family%20Tatoo%20-%20Tatouage%2C%20tatouage%20th%C3%A9rapeutique%2C%20piercing!5e0!3m2!1sen!2sfr!4v1753714341016!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-
+              <div class="contact-us-form" data-tf-live="01K20TYCFB99W9PCGX5MK05WV7"></div><script src="//embed.typeform.com/next/embed.js"></script>                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.3603595874!2d4.425137676209333!3d43.453073371112225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b661b167a5df21%3A0x21500afc62a5e3a6!2sFamily%20Tattoo!5e0!3m2!1sen!2sfr!4v1754084995546!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>            </div>
+                
         </div>
             <!-- <button class="formulaire-contact-btn">Nous contacter</button> -->
         </section>
     </main>
     <footer>
-        <img src="./Images/Logo Family Tattoo.jpg" alt="Logo Familly tattoo" class="logo-footer">
+        <img src="./Images/Logo-familly-tattoo.jpg" alt="Logo Familly tattoo" class="logo-footer">
         <!-- <div class="menu">
             <ul class="menu-footer">
                 <li>Accueil</li>
@@ -124,6 +172,7 @@
                 <p>© 2025 Family Tattoo — Site réalisé par Flexi'Up</p>
             </div>
         </div>
+        <script src="https://kit.fontawesome.com/50eec1375a.js" crossorigin="anonymous"></script>
     </footer>
  
 </body>
